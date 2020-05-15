@@ -5,6 +5,18 @@ module.exports = {
     author: `@Tielem <ttielu@gmail.com>`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-ts`,
+      options: {
+          tsLoader: {
+              logLevel: `warn`,
+          },
+          forkTsCheckerPlugin: {
+              eslint: true,
+          },
+          codegen: false,
+      },
+  },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
