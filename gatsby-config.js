@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Gatsby TypeScript + ESlint + Prettier Starter`,
+    description: `This Gatsby starter is an adaptation of the default Gatsby starter with TypeScript, ESlint and Prettier pre-configured, bringing you everything you need to get up and running with Gatsby in a type-safe and style-safe way.`,
+    author: `@Tielem <ttielu@gmail.com>`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
