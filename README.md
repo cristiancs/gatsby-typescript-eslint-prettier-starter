@@ -75,6 +75,7 @@ A quick look at the top-level files and directories you'll see in your Gatsby pr
     ├── package-lock.json
     ├── package.json
     ├── README.md
+    ├── renovate.json
     └── tsconfig.json
 
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
@@ -103,7 +104,9 @@ A quick look at the top-level files and directories you'll see in your Gatsby pr
 
 13. **`README.md`**: A text file containing useful reference information about your project.
 
-14. **`tsconfig.json`**: This is a configuration file for [TypeScript](https://www.typescriptlang.org/). TypeScript is a programming language which adds type safety to JavaScript.
+14. **`renovate.json`**: A JSON file containing a configuration for [Renovate](https://renovate.whitesourcesoftware.com/), which keeps the dependencies up to date.
+
+15. **`tsconfig.json`**: This is a configuration file for [TypeScript](https://www.typescriptlang.org/). TypeScript is a programming language which adds type safety to JavaScript.
 
 ## 🎓 Learning Gatsby
 
