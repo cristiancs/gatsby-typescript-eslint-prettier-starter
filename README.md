@@ -19,6 +19,12 @@ This Gatsby starter is an adaptation of the default Gatsby starter with TypeScri
     git clone https://github.com/Tielem/gatsby-typescript-eslint-prettier-starter my-gatsby-site
     ```
 
+    Alternatively, use Gatsby's CLI `gatsby`
+
+    ```shell
+    gatsby new https://github.com/Tielem/gatsby-typescript-eslint-prettier-starter
+    ```
+
 1.  **Change the active directory to your Gatsby site.**
 
     Navigate to your new site's directory.
@@ -29,7 +35,7 @@ This Gatsby starter is an adaptation of the default Gatsby starter with TypeScri
 
 1.  **Install the dependencies.**
 
-    Install the dependencies of the Gatsby project with `npm`.
+    Install the dependencies of the Gatsby project with `npm` (or `yarn`).
 
     ```shell
     npm install
